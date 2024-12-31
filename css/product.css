@@ -1,0 +1,46 @@
+.detail{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+}
+.product__content{
+    width: 450px;
+}
+.title{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.description{
+    color: #97999e;
+    font-size: 14px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: 600;
+}
+.rating{
+    font-style: italic;
+    margin-top: 10px;
+}
+.add__btn{
+    margin: 20px auto;
+    padding: 10px 25px;
+    background: dodgerblue;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+}
